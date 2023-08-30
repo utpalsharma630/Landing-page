@@ -1,0 +1,146 @@
+@media screen and (max-width:1024px) {
+    .footer-section-right{
+        width: 90%;
+    }
+    .footer-section-left{
+       margin-left: 25px;
+    }
+    .marketing{
+        margin-left: 110px;
+    }
+    .carling-text {
+        left: 8%;
+    }
+}
+@media screen and (max-width:768px){
+    .footer-section-right input {
+        margin-right: 20px;
+    }
+    .smith{
+        flex-direction: column;
+    }
+    .navbar{
+        width: 95%;
+    }
+    .carling{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .carling-text{
+        left:3%;
+        top:45%;
+    }
+    .libero{
+        margin: 80px 55px;
+    }
+        
+}
+@media screen and (max-width:576px){
+    .navbar{
+        width: 97%;
+    }
+    .navbar-right{
+        display: block;  
+    }
+    .navbar-right ul{
+        flex-direction: column;
+    }
+    .navbar-right button{
+        margin-top: 10px;
+    }
+    .lessons{
+        flex-direction: column;
+    }
+    .system-item{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .pixelgrade{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .itself{
+        flex-direction: column;
+    }
+    .pixelgrade1{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .marketing{
+        margin-left: 50px;
+    }
+    .carling{
+        width: 95%;
+        left: 50px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .carling-card{
+        margin: 50px;
+        margin-left: 150px;
+    }
+    .carling-text {
+        width: 220px;
+        
+
+    }
+    .footer-section{
+        flex-direction: column;
+    }
+    .libero{
+        margin:150px 55px;
+        margin-top: 550px;
+    }
+}
+@media screen and (max-width:320px){
+    .system-content h2{
+        width: 250px;
+        font-size: 25px;
+    }
+    .lessons h2{
+        font-size: 35px;
+    }
+    .system-item {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pixelgrade{
+        width: 100%;
+        margin: auto;
+    }
+    .itself-right{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .itself-right{
+        flex-direction: column;
+    }
+    .smith-icon{
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .carling-card{
+        margin: 50px;
+        margin-left: 20px;
+    }
+    .carling-text {
+        width: 200px;
+        left: 25px;
+        
+
+    }
+    .libero{
+        margin:100px 35px;
+        margin-top: 550px;
+    }
+    .marketing {
+        margin-left: 5px;
+    }
+    .marketing p {
+        width: 200px;
+        
+    }
+    .footer-section-right {
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+    }
+    
+}

@@ -251,13 +251,36 @@
 
 .carling{
     width: 80%;
+    height: 400px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 2px solid white;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
-
+.card-img{
+    width: auto;
+    height: 200px;
+    position: absolute;
+}
+.carling-text{
+    width: 80%; 
+    position: relative;
+    top: 30%;
+    /* left: 15%; */
+    background-color: #F5F7FA;
+    box-shadow: 2px solid beige;
+    text-align: center;
+    justify-content:center;
+    
+}
+.carling-text button{
+    margin: 10px 0;
+    padding: 7px 20px;
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+}
 
 
 
